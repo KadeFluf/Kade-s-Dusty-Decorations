@@ -1,0 +1,370 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "lamps": "1",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp"
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "lamps": "1",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "lamps": "1",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "lamps": "1",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "lamps": "1",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_off"
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "lamps": "1",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_off",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "lamps": "1",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_off",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "lamps": "1",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_off",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "lamps": "2",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double"
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "lamps": "2",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "lamps": "2",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "lamps": "2",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "lamps": "2",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double_off"
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "lamps": "2",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double_off",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "lamps": "2",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double_off",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "lamps": "2",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/wall_shaded_lamp_double_off",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/shaded_lamp"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/shaded_lamp_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "1",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_1"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "1",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_1_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "2",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_2"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "2",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_2_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "3",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_3"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "3",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_3_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "4",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_4"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "4",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_4_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "5",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_5"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "5",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_5_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "6",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_6"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "6",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_6_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "7",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_7"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "7",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_7_off"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "8",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_8"
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "lamps": "8",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "dustydeco:block/shaded_lamp/ceiling/ceiling_shaded_lamp_8_off"
+      }
+    }
+  ]
+}

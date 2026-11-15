@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dustydeco",
+  "version": "${version}",
+  "name": "Kade's Dusty Decorations",
+  "description": "",
+  "authors": [
+    "KadeFluf"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dustydeco/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.kade.dustydeco.client.DustydecoClient"
+    ],
+    "main": [
+      "com.kade.dustydeco.Dustydeco"
+    ]
+  },
+  "mixins": [
+    "dustydeco.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "P",
+    "T",
+    "W"
+  ],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "T": { "item": "minecraft:torch" },
+    "W": { "tag": "minecraft:planks" }
+  },
+  "result": {
+    "item": "dustydeco:shaded_lamp",
+    "count": 2
+  }
+}
